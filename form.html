@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!---Coding By CodingLab | www.codinglabweb.com--->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Registration Form in HTML CSS</title>
+    <!---Custom CSS File--->
+    <link rel="stylesheet" href="./estilos/estilo_form.css" />
+  </head>
+  <body>
+    <section class="container">
+      <header>.
+      </header>
+      <form action="#" class="form">
+        <div class="input-box">
+          <label>Nome Completo</label>
+          <input type="text" placeholder="Preenhca seu nome completo" required />
+        </div>
+
+        <div class="input-box">
+          <label>Seu melhor E-mail</label>
+          <input type="text" placeholder="Preenhca seu melhor e-mail" required />
+        </div>
+
+        <div class="column">
+          <div class="input-box">
+            <label>Telefone Celular</label>
+            <input type="number" placeholder="Preenhca seu celular" required />
+          </div>
+          <div class="input-box">
+            <label>Data de Nascimento</label>
+            <input type="date" placeholder="Preencha a data de nascimento"/>
+          </div>
+        </div>
+        <div class="gender-box">
+          <h3>Gênero</h3>
+          <div class="gender-option">
+            <div class="gender">
+              <input type="radio" id="check-male" name="gender" checked />
+              <label for="check-male">Masculino</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-female" name="gender" />
+              <label for="check-female">Feminino</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-other" name="gender" />
+              <label for="check-other">Prefiro não dizer</label>
+            </div>
+          </div>
+        </div>
+        <div class="input-box address">
+          <label>Endereço</label>
+          <input type="text" placeholder="Preencha seu Endereço"/>
+          <input type="text" placeholder="Preencha o complemento"/>
+          <div class="column">
+            <div class="select-box">
+              <select>
+                <option hidden>País</option>
+                <option>Brasil</option>
+                <option>Argentina</option>
+                <option>Paraguai</option>
+                <option>Chile</option>
+              </select>
+            </div>
+            <input type="text" placeholder="Preenhca sua cidade"/>
+          </div>
+          <div class="column">
+            <input type="text" placeholder="Preenhca seu bairro"/>
+            <input type="number" placeholder="Preenhca o CEP"/>
+          </div>
+        </div>
+        <button>Inscreva-se agora para descobrir as últimas tecnologias alienígenas!</button>
+      </form>
+    </section>
+  </body>
+</html>
